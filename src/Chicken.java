@@ -14,4 +14,10 @@ public class Chicken extends Animal implements Edible, Commercializable {
     public void commercialize() {
         System.out.println("Sell eggs");
     }
+
+
+    public void eatChicken() {
+        System.out.println("Chicken soup");
+
+    }
 }
